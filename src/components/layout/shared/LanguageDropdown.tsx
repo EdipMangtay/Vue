@@ -49,6 +49,10 @@ const languageData: LanguageDataType[] = [
   {
     langCode: 'ar',
     langName: 'Arabic'
+  },
+  {
+    langCode: 'tr', // Türkçe dil kodunu ekledik
+    langName: 'Türkçe' // Dilin kullanıcıya görünecek adı
   }
 ]
 

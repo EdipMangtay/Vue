@@ -1,11 +1,10 @@
 export const i18n = {
   defaultLocale: 'en',
-  locales: ['en', 'fr', 'ar'],
+  locales: ['en', 'fr', 'ar', 'tr'],  // 'tr' dilini buraya ekledik
   langDirection: {
     en: 'ltr',
     fr: 'ltr',
-    ar: 'rtl'
+    ar: 'rtl',
+    tr: 'ltr' // 'tr' dili için yön ekledik
   }
-} as const
-
-export type Locale = (typeof i18n)['locales'][number]
+} as const;
